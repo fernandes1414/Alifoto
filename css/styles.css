@@ -11420,16 +11420,16 @@ body {
 }
 
 .gallery2 img {
-  width: 620px;
+  width: calc(33.33% - 20px); /* lebar gambar disesuaikan dengan jumlah kolom */
   height: 350px;
   margin: 10px;
   object-fit: cover;
 }
+
 .gallery2 img:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
 }
-
 
 .gallery3 {
   display: flex;
